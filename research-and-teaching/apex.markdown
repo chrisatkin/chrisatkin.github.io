@@ -8,6 +8,4 @@ APEX/F is an experimental radiotherapy treatment planning platform designed to a
 
 APEX/F is currently undergoing trials at the [University Hospital of North Staffordshire](http://www.uhns.nhs.uk) and the [Institute for Science and Technology in Medicine](http://www.keele.ac.uk/istm/) and is forming part of several upcoming publications.
 
-[View the documentation](pub/apex-docs/bootstrap.html)
-
 ![APEX Screenshot](assets/apex-screenshot.png)

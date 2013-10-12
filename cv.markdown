@@ -9,7 +9,7 @@ layout: main
 
 ## [![The University of Edinburgh](assets/ed.png)](http://www.inf.ed.ac.uk)
 
-Master of Science in Computer Science with an emphasis on computer systems, software engineering and high-performance computing. Predicted to graduate with distinction.
+Master of Science with Distinction in Computer Science. My specialism was Computer Systems, Software Engineering and High-Performance Computing.
 
 <!--Modules: [Parallel Programming Languages and Systems](http://www.inf.ed.ac.uk/teaching/courses/ppls), [Compiling Techniques](http://www.inf.ed.ac.uk/teaching/courses/ct), [Parallel Architectures](http://www.inf.ed.ac.uk/teaching/courses/pa), [Multi-Agent Semantic Web Systems](http://www.inf.ed.ac.uk/teaching/courses/masws), [Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc), [Distributed Systems](http://www.inf.ed.ac.uk/teaching/courses/ds), [Design and Analysis of Parallel Algorithms](http://www.inf.ed.ac.uk/teaching/courses/dapa) and Threaded Programming (at [EPCC](http://www.epcc.ed.ac.uk)).-->
 
@@ -22,23 +22,23 @@ Bachelor of Science with First-Class Honours (*summa cum laude*) in Computer Sci
 
 # Research
 
-## Auto-Threading Compilers
-I am currently working on my MSc dissertation, which is investigating run-time profiling of Java Virtual Machine programs. I am working with [Christophe Dubach](http://homepages.inf.ed.ac.uk/cdubach) and [Bjoern Franke](http://homepages.inf.ed.ac.uk/bfranke) in order to perform memory operation profiling in order to detect parallelism using the Graal compiler infrastructure.
+## [Auto-Threading Compilers](research-and-teaching/locomotion.html)
+My [MSc dissertation](research-and-teaching/locomotion.html) investigated run-time profiling of Java Virtual Machine programs. I worked with [Christophe Dubach](http://homepages.inf.ed.ac.uk/cdubach) and [Bjoern Franke](http://homepages.inf.ed.ac.uk/bfranke) in order to perform memory operation profiling in order to detect parallelism using the Graal compiler infrastructure.
 
-## [Gait Analysis](research/gait-analysis.html)
+## [Gait Analysis](research-and-teaching/gait-analysis.html)
 I interned for three months as part of an interdisciplinary collaboration between the [Institute for Science and Technology in Medicine](http://www.keele.ac.uk/istm/), the [School of Computing and Mathematics](http://keele.ac.uk/scm) and the [School of Health and Rehabilitation](http://www.keele.ac.uk/healthandrehabilitation/). The project was funded by EPSRC and I worked on [low-cost approaches to gait analysis](pub/approaches.pdf).
 
-## [Medical Image Analysis](research/apex.html)
+## [Medical Image Analysis](research-and-teaching/apex.html)
 My undergraduate dissertation investigated the use of fractal image analysis techniques within the domain of medical image analysis. The work continued on from several years of research already conducted by my supervisors, [KP Lam](http://www.keele.ac.uk/scm/staff/academic/drkplam/) and [Dave Collins](http://www.keele.ac.uk/scm/staff/academic/davidcollins/) and was a collaboration with the University Hospital of North Staffordshire. The work is forming part of several upcoming publications.
 
 # Experience
 
-## Engineering intern - GuideSpark Inc
+## Software Engineer (Intern) - GuideSpark Inc
 Through the [Silicon Valley Internship Programme](http://www.siliconvalleyinternship.com). GuideSpark creates and distributes interactive multimedia for corporate education. I will be working on their backend systems using Ruby on Rails, Backbone.js as well as creating new functionality for their next-generation platform to be released later this year.
 
 August 2013 - September 2014
 
-![Silicon Valley Internship Programme](assets/svip-guidespark.png)
+![Silicon Valley Internship Programme](assets/svip.png)
 
 ## Teaching Assistant - University of Keele
 
@@ -49,31 +49,25 @@ Departments:
 
 January 2011 - July 2012
 
+![University of Keele](assets/keele.png)
 
 ## Software Engineer - Institute for Science and Technology in Medicine, University of Keele
 Interdisciplinary collaboration between School of Computing and Mathematics, School of Health and Rehabilitation and the Research Institute for Science and Technology in Medicine. Developed a C#/.NET 4.0 application using Kinect APIs to support data collection as well as C++ and MATLAB data collection and processing applications.
 
-# Teaching
-Teaching assistant for the following modules whilst at Keele:
+May 2012 - September 2013
 
-- [Virtual Worlds](http://www.keele.ac.uk/modcat/2011-2/csc-20024.htm)
-- Handling Data
-- [System Lifecycles and Design](http://www.keele.ac.uk/modcat/2011-2/csc-20022.htm) (coursework used for teaching materials)
-- Multimedia and the Web
-
-I decided _not_ to be a demonstrator/mentor whilst studying for my Masters degree.
+![University of Keele](assets/keele.png)
 
 # Honours
+ - Awarded distinction grade for Master of Science degree. 10% of degrees in 2013 were awarded this, the highest grade
  - Member of [Silicon Valley Internship Programme](http://siliconvalleyinternship.com), Class of 2014 (11% accept rate)
  - Bathurst Educational Foundation scholarship (2012, 2013)
  - European Science, Engineering and Technology IT Student of the Year (nomination)
- - Graduated joint top-of-class from Keele 
+ - Graduated joint top-of-class from Keele
 
 # Skills
 ## Languages
-Proficient/expert: Java, C, C++, C#, MATLAB, Ruby, JavaScript
-
-Beginner/intermediate: Python, Haskell, AspectJ
+Java, C, C++, C#, MATLAB, Ruby, JavaScript
 
 ## Frameworks and Libraries
 *Note: this list is incomplete*
@@ -115,5 +109,5 @@ LaTeX and XeLaTeX, LibreOffice, Microsoft Office, Eclipse, Netbeans, IntelliJ, V
 # References
 Available upon request.
 
-Last updated June 28 2013
+Last updated October 11 2013
 
