@@ -1,0 +1,164 @@
+# transaction.ttl
+# A vocabulary for describing transactions, particularly focussed on the US Government TARP program
+# 
+# Written for Multi-Agent Semantic Web Systems at the University of Edinburgh School of Informatics
+# Author: Christopher Atkin-Granville (s1255573) <c.e.atkin-granville@sms.ed.ac.uk>
+# Author: Alexandra Nitulescu (s1s1256922) <i.a.nitulescu@sms.ed.ac.uk>
+# Date: 26/02/2013
+# URL: http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix money: <http://telegraphis.net/ontology/money/money#> .
+@prefix schema: <http://rdfs.schema.org/> .
+@prefix transaction: <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#> .
+
+<http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl> a owl:Ontology ;
+	dct:title "Transaction vocabulary"@en ;
+	dct:description "A vocabulary for describing transactions, mainly focussed on the US Government TARP program but may also be used for generic transactions"@en ;
+	rdfs:seeAlso <http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-12/assignments.html#part-1-identifying-a-data-source> ;
+	dct:valid "2013-02-26"^^xsd:date ;
+	.
+
+transaction:transaction a rdfs:Class;
+	rdfs:label "Transaction"@en ;
+	rdfs:comment "A generic transaction" ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#transaction> ;
+	.
+
+transaction:governmentTransaction a rdfs:Class ;
+	rdfs:label "Government transaction"@en ;
+	rdfs:comment "A transaction related to a government organisation"@en ;
+	rdfs:subClassOf transaction:transaction ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#governmentTransaction> ;
+	.
+
+transaction:tarpTransaction a rdfs:Class ;
+	rdfs:label "A TARP transaction"@en ;
+	rdfs:comment "A transaction that occurs under the TARP program of the US government"@en ;
+	rdfs:subClassOf transaction:transaction ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#tarpTransaction> ;
+	.
+
+transaction:pricingMechanism a rdf:Property ;
+	rdfs:label "A pricing mechanism for a particular transaction"@en ;
+	rdfs:comment "May be a string or a URL representing a particular mechanism (i.e., an official webpage)"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range [ a owl:Class; owl:unionOf (xsd:string rdfs:Resource) ] ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#pricingMechanism> ;
+	.
+
+transaction:warrantStrikePrice a rdf:Property ;
+	rdfs:label "See report"@en ;
+	rdfs:comment "Must be a represntation of a currency"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range money:Currency ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#warrantStrikePrice> ;
+	.
+
+transaction:warrantReceived a rdf:Property ;
+	rdfs:label "See report"@en ;
+	rdfs:comment "Must be a represntation of a currency"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range money:Currency ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#warrantReceived> ;
+	.
+
+transaction:regulator a rdf:Property ;
+	rdfs:label "A regulator for a given transaction"@en ;
+	rdfs:comment "May be a string or a URI representing a regulator"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range [ a owl:Class; owl:unionOf (xsd:string rdfs:Resource) ] ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#regulator> ;
+	.
+
+transaction:program a rdf:Property ;
+	rdfs:label "A program for a given transaction"@en ;
+	rdfs:comment "May be a string or a URI representing a program"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range [ a owl:Class; owl:unionOf (xsd:string rdfs:Resource) ] ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#program> ;
+	.
+
+transaction:institutionType a rdf:Property ;
+	rdfs:label "The type of instution the transaction was created by"@en ;
+	rdfs:comment "Must be a string"@en ;
+	rdfs:domain schema:Corporation ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#institutionType> ;
+	.
+
+transaction:fdicNumber a rdf:Property ;
+	rdfs:label "The unique number given to a Corporation by the Federal Deposit Insurance Corporation"@en ;
+	rdfs:comment "Must be an integer"@en ;
+	rdfs:domain schema:Corporation ;
+	rdfs:range xsd:int ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#fdicNumber> ;
+	.
+
+transaction:otsNumber a rdf:Property ;
+	rdfs:label "The unique number given to a Corporation by the Office for Thrift Supervision"@en ;
+	rdfs:comment "Must be an integer"@en ;
+	rdfs:domain schema:Corporation ;
+	rdfs:range xsd:int ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#otsNumber> ;
+	.
+
+transaction:stockPrice a rdf:Property ;
+	rdfs:label "The stock price for a company"@en ;
+	rdfs:comment "Must be a represntation of a currency"@en ;
+	rdfs:domain schema:Corporation ;
+	rdfs:range money:Currency ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#stockPrice> ;
+	.
+
+transaction:outOfMoney a rdf:Property ;
+	rdfs:label "See report"@en ;
+	rdfs:comment "Must be a represntation of a currency"@en ;
+	rdfs:domain schema:Corporation ;
+	rdfs:range money:Currency ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#outOfMoney> ;
+	.
+
+transaction:transactionType a rdf:Property ;
+	rdfs:label "The type of transaction this represents"@en ;
+	rdfs:comment "Must be a string"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#transactionType> ;
+	.
+
+transaction:institutionType a rdf:Property ;
+	rdfs:label "The type of institution this represents"@en ;
+	rdfs:comment "Must be a string"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#institutionType> ;
+	.
+
+transaction:subsidyRateEstimatePercentage a rdf:Property ;
+	rdfs:label "See report"@en ;
+	rdfs:comment "Must be an integer"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range xsd:int ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#subsidyRateEstimatePercentage> ;
+	.
+
+transaction:subsidyRateEstimateDate a rdf:Property ;
+	rdfs:label "See report"@en ;
+	rdfs:comment "Must be a Date"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range dct:date ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#subsidyRateEstimateDate> ;
+	.
+
+transaction:subsidyRateEstimateSource a rdf:Property ;
+	rdfs:label "See report"@en ;
+	rdfs:comment "Must be a string"@en ;
+	rdfs:domain transaction:transaction ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy <http://homepages.inf.ed.ac.uk/s1255753/module/masws/transaction-vocabulary.ttl#subsidyRateEstimateSource> ;
+	.

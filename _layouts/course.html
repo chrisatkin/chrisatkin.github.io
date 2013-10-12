@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.course }} | {{ page.title }}</title>
+		<!--<base href="http://homepages.inf.ed.ac.uk/s1255753/">-->
+		<base href="http://localhost:4000"/>
+		<style>
+			@import url(assets/course.css);
+		</style>
+	</head>
+	
+	<body><div id="container">
+		<header><div class="wrapper">
+			<div id="header-left">
+				<h1><a href="index.html">{{ page.course }}</a></h1>
+				<div style="clear: both"></div>
+				<!--<nav>
+					<a href="courses/fpals">Introduction &amp; Curriculum</a>
+					<a href="research">Research</a>
+					<a href="teaching.html">Teaching</a>
+					<a href="projects">Projects</a>
+					<a href="writing">Writing</a>
+					<a href="services.html">Services</a>
+					<a href="http://chrisatk.in/photos">Photos</a>
+					<a href="contact.html">Contact</a>
+				</nav>-->
+			</div>
+			<div id="header-right">
+        	</div>
+        	<div style="clear: both"></div>
+		</div></header>
+
+		<!--[if IE 6]><div class="browser-warning ie6"><strong>Internet Explorer 6 detected!</strong>Sorry, but it was too much effort to get this working in IE6. Please switch to a much better browser like Firefox, Chrome, Safari, Opera, Konqueror, OmniWeb... (IE9+ would also be acceptable)</div><![endif]-->
+
+		<section><div class="wrapper">
+			{{ content }}
+		</div></div>
+	</div></body>
+</html>
