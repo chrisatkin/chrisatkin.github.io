@@ -4,8 +4,6 @@ layout: main
 ---
 
 # About Me
-Hello there! Welcome to my website.
-
 I'm a software engineer working at [GuideSpark](http://guidespark.com) in Menlo Park, California. I'm here as part of the [Silicon Valley Internship Programme](http://siliconvalleyinternship.com), Class of 2014. Before I came to Silicon Valley, I spent three years studying Computer Science at the [University of Keele](http://keele.ac.uk), [School of Computing and Mathematics](http://keele.ac.uk/scm) and one year studying Computer Science with a Systems and HPC specialism at the [University of Edinburgh](http://www.ed.ac.uk) [School of Informatics](http://www.inf.ed.ac.uk) and [Edinburgh Parallel Computing Centre](http://www.epcc.ed.ac.uk).
 
 ![SVIP and GuideSpark logo](assets/svip-guidespark.png)
