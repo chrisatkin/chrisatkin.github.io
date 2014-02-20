@@ -3,9 +3,13 @@ title: Projects
 layout: main
 ---
 # Projects
-Some projects that I've worked on in the past. This isn't a comprehensive list, but it covers most of the interesting ones.
+Here are some projects that I'm either currently working on, or have worked on in the past.
 
-- [_Nova_ Framework Series](projects/nova.html)
-- [Tundra](http://gotundra.chrisatk.in)
-- [Celestia](projects/celestia.html)
-- [MooTools-Utils](projects/mootools-utils.html)
+[![GitHub](assets/github-logo.png)](https://github.com/chrisatkin)
+
+* [Locomotion](research-and-teaching/locomotion.html)<br>Dynamic parallelism detection for the Java Virtual Machine
+* [APEX/F](research-and-teaching/apex.html)<br>Fractal image analysis for radiotherapy treatment planning
+* [Semantic TARP Data](projects/tarp-data.html)<br>Semantic dataset of [TARP](https://en.wikipedia.org/wiki/Troubled_Asset_Relief_Program) transactions
+* [Faddit](https://github.com/chrisatkin/faddit)<br>Reddit clone in Rails
+* [MooTools-Utils](projects/mootools-utils.html)<br>Various helper classes that some may find useful in MooTools projects
+* [Throw it Up](https://github.com/chrisatkin/throw-it-up)<br>Manage your crowdsourced Twitter image feed

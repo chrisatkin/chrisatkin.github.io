@@ -10,8 +10,8 @@ I'm a software engineer working at [GuideSpark](http://guidespark.com) in Menlo 
 
 My area of expertise is in the area of computer systems, software engineering and high-performance computing. As part of my [Masters dissertation](research-and-teaching/locomotion.html), I wrote a dynamic instrumentation toolkit for the JVM for detecting parallelism with minimal overhead.
 
-If you're interested, you can see my [CV](cv.html) and [what I'm reading at Mendeley](http://www.mendeley.com/profiles/christopher-atkin-granville/).
+If you're interested, you can see my [CV](cv.html) and my [GitHub](https://github.com/chrisatkin).
 
-![This is me](assets/me-colour.jpg "Pengiuns rock")
+![This is me](assets/me-colour.jpg "Alcatraz!")
 
 > It is better to die on your feet than live on your knees.
