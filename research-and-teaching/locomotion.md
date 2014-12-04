@@ -3,10 +3,12 @@ title: Research - Locomotion
 layout: main
 ---
 ![Locomotion](assets/locomotion.png)
-# The Locomotion Project
-The Locomotion Project developed a profiler which detects parallel loops dynamically at runtime. This profiler uses the [Graal compiler infrastructure](http://openjdk.java.net/projects/graal/) in order to register every read and write operation to/from memory and identify potential dependancies. Storing this dependency metadata is memory-intensive, so the use of Bloom filters was investigated.
 
-It was concluded that dynamic parallelism detection is indeed possible, and with minimal overhead (in terms of both execution time and memory usage).
+# The Locomotion Project
+
+The Locomotion Project developed a profiler which detects candidate loops for parallelization dynamically at runtime with minimal overhead (in both time and space). I used the [Graal compiler infrastructure](http://openjdk.java.net/projects/graal) in order to identify loops and perform analysis within those loops to proove the existance of memory dependencies.
+
+The overhead of this analysis was shown to be minimal in both time and space, with additional memory requirements within the 10s of MB range and adding roughly 5% to runtime in compute-intensive applications.
 
 Locomotion made up my [Masters thesis](cv.html) and was supervised by [Dr. Christophe Dubach](http://homepages.inf.ed.ac.uk/cdubach) and [Dr. Bjoern Franke](http://homepages.inf.ed.ac.uk/bfranke). A copy of the [PDF](pub/parallelism-detection.pdf) is available.
 

@@ -17,8 +17,8 @@
    xml:space="preserve"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="user_close.svg"><defs
-     id="defs3114" /><sodipodi:namedview
+   sodipodi:docname="document_text.svg"><defs
+     id="defs3455" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -29,7 +29,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview3112"
+     id="namedview3453"
      showgrid="false"
      inkscape:zoom="7.375"
      inkscape:cx="16"
@@ -38,7 +38,7 @@
      inkscape:window-y="24"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" /><metadata
-     id="metadata3098"><rdf:RDF><cc:Work
+     id="metadata3439"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>PICOL Icon</dc:title><dc:date>2009-03-15</dc:date><dc:creator><cc:Agent><dc:title>Melih Bilgil</dc:title></cc:Agent></dc:creator><dc:rights><cc:Agent><dc:title>Creative Commons BY-SA</dc:title></cc:Agent></dc:rights><dc:publisher><cc:Agent><dc:title>PICOL - Pictorial Communication Language</dc:title></cc:Agent></dc:publisher><dc:identifier>http://blog.picol.org</dc:identifier><dc:source>http://blog.picol.org</dc:source><dc:language>en</dc:language><dc:subject><rdf:Bag><rdf:li>PICOL</rdf:li><rdf:li>icon</rdf:li><rdf:li>icons</rdf:li><rdf:li>sign</rdf:li><rdf:li>GUI</rdf:li><rdf:li>vector</rdf:li><rdf:li>interface</rdf:li></rdf:Bag></dc:subject><dc:description>This is one icon out of all PICOL icons</dc:description><dc:contributor><cc:Agent><dc:title>Melih Bilgil (www.lonja.de), Christopher Adjei (www.boffer.net)</dc:title></cc:Agent></dc:contributor><cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" /></cc:Work><cc:License
@@ -53,7 +53,6 @@
        fill="none"
        width="32"
        height="32"
-       id="rect3101" /></g><path
-     id="circle3110"
-     style=""
-     d="m 24,10 c 0,4.418278 -3.581722,8 -8,8 -4.418278,0 -8,-3.581722 -8,-8 0,-4.418278 3.581722,-8 8,-8 4.418278,0 8,3.581722 8,8 z M 0,32 h 32 v -8 c 0,0 0,-4 -4,-4 -2,0 -20,0 -24,0 -4,0 -4,4 -4,4 v 8 z" /></svg>
+       id="rect3442" /></g><path
+     id="path3451"
+     d="M 18.414,0 H 0 V 32 H 24 V 5.584 L 18.414,0 z M 17.998,2.413 21.586,6 H 17.998 V 2.413 z M 2,30 V 1.998 h 14 v 6.001 h 6 V 30 H 2 z m 18,-14 0,2 -16,0 0,0 0,-2 z m 0,-4 0,2 -16,0 0,0 0,-2 z m -4,8 0,2 -12,0 0,0 0,-2 z" /></svg>

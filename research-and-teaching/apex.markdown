@@ -4,9 +4,9 @@ layout: main
 ---
 ![APEX/F](assets/apex.png)
 
-APEX/F is an experimental radiotherapy treatment planning platform designed to aid oncologists. It uses sophisticated image analysis (using fractal mathematics and watershed image processing) in order to do this.
+APEX/F was an experimental radiotherapy treatment planning platform designed to aid oncologists in identifying segments of CT scans. It uses sophisticated image analysis (using fractal mathematics and watershed image processing) in order to do this.
 
-APEX/F is currently undergoing trials at the [University Hospital of North Staffordshire](http://www.uhns.nhs.uk) and the [Institute for Science and Technology in Medicine](http://www.keele.ac.uk/istm/) and is forming part of several upcoming publications. During the project I was supervised by Dr KP Lam and Mr David Collins.
+APEX/F underwent trials at the [University Hospital of North Staffordshire](http://www.uhns.nhs.uk) and the [Institute for Science and Technology in Medicine](http://www.keele.ac.uk/istm/). During the project I was supervised by Dr KP Lam and Mr David Collins.
 
 ![APEX Screenshot](assets/apex-screenshot.png)
 
