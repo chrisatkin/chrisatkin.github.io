@@ -9,7 +9,7 @@ layout: main
 
 Legal name: Christopher Edward Atkin-Granville
 
-Web: [http://chris.atkin.co](http://chris.atkin.co)
+Web: [http://atkin.co](http://atkin.co)
 
 Email: chris at atkin dot co
 
