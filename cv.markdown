@@ -27,7 +27,7 @@ United States legal status: H1-B holder
 
 **Master of Science in Computer Science**
 
-With distinction (top 10% of class, U.S. equivalent: 4.0GPA). Specialism in computer systems (including distributed systems), software engineering and high-performance computing with work undertaken at [Edinburgh Parallel Computing Centre](http://www.epcc.ed.ac.uk), the UK's national centre for academic supercomputing. Recipient of Bathurst Educational Foundation Scholarship in 2012 and 2013.
+With distinction (top 10% of class, U.S. equivalent: 4.0GPA). Specialism in computer systems (including distributed systems), software engineering and high-performance computing with work undertaken at [Edinburgh Parallel Computing Centre](http://www.epcc.ed.ac.uk), the UK's national centre for academic supercomputing. Recipient of Bathurst Educational Foundation Scholarship in 2012 and 2013. Thesis title: *Parallelism Detection using Dynamic Instrumentation in a Virtual Machine*
 
 <small>September 2012 to November 2013 in <img class="flag" src="assets/flag-united-kingdom.svg"> <img class="flag" src="assets/flag-scotland.svg"> Edinburgh, Scotland
 
@@ -37,7 +37,7 @@ With distinction (top 10% of class, U.S. equivalent: 4.0GPA). Specialism in comp
 
 **Bachelor of Science in Computer Science**
 
-With First-Class Honours (U.S. equivalent: *summa cum laude*, 4.0GPA) and joint valedictorian. Science, Engineering & Technology Student of the Year in Computer Science nomination. Founding President of Keele University Computing Society 2011-2012; Founding Secretary of Keele Gliding Society 2009-2011.
+With First-Class Honours (U.S. equivalent: *summa cum laude*, 4.0GPA) and joint valedictorian. Science, Engineering & Technology Student of the Year in Computer Science nomination. Founding President of Keele University Computing Society 2011-2012; Founding Secretary of Keele Gliding Society 2009-2011. Thesis title: *Fractal Image Analysis in CT Image Segmentation*
 
 <small>June 2009 - July 2012 in <img class="flag" src="assets/flag-united-kingdom.svg"> <img class="flag" src="assets/flag-staffordshire.png"> Staffordshire, United Kingdom
 
